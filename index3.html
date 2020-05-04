@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz</title>
+    <link rel="stylesheet" href="style3.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Pathway+Gothic+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP|Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rye&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Boogaloo|Rancho|Rye&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="grid">
+        <h2>The Ultimate Harry Potter Quiz</h2>
+        <h3>Let's see how well do you know about the magical world!!</h3>
+        <hr style="margin-bottom: 0px">
+
+        <form id="quiz" name="quiz">
+
+        <p>1. What is the name of Weasley's house?</p>
+        <input type="radio" id="ques1" name="ques1" value="Privet Drive">Privet Drive  
+        <input type="radio" id="ques1" name="ques1" value="The Burrow">The Burrow  
+        <input type="radio" id="ques1" name="ques1" value="Malfoy Manor">Malfoy Manor 
+
+        <p>2. Which character served as a Quidditch commentator?</p>
+        <input type="radio" id="ques2" name="ques2" value="Lee Jordan">Lee Jordan  
+        <input type="radio" id="ques2" name="ques2" value="Rolanda Hooch">Rolanda Hooch 
+        <input type="radio" id="ques2" name="ques2" value="Oliver Wood">Oliver Wood 
+
+        <p>3. What's the name of the Wizarding newspaper based in London?</p>
+        <input type="radio" id="ques3" name="ques3" value="The Quibbler">The Quibbler  
+        <input type="radio" id="ques3" name="ques3" value="Daily Prophet">Daily Prophet  
+        <input type="radio" id="ques3" name="ques3" value="The Guardian">The Guardian  
+
+        <p>4. In which house Harry was sorted into?</p>
+        <input type="radio" id="ques4" name="ques4" value="Hufflepuff">Hufflepuff  
+        <input type="radio" id="ques4" name="ques4" value="Slytherin">Slytherin 
+        <input type="radio" id="ques4" name="ques4" value="Gryffindor">Gryffindor
+        
+        <p>5. Which class has a different teacher every year?</p>
+        <input type="radio" id="ques5" name="ques5" value="Potions">Potions  
+        <input type="radio" id="ques5" name="ques5" value="Astrology">Astrology  
+        <input type="radio" id="ques5" name="ques5" value="Defense against dark arts">Defense against dark arts<br><br>
+
+        <input id="button" type="button" value="I am finished" onclick="check();">
+        </form>
+
+        <div id="after-submit">
+            <div class="column">
+            <p id="message"></p>
+            <p id="number_correct"></p>
+            </div>
+            <div class=column>
+                <img id="picture"></p>
+            </div> 
+        </div>
+
+        <hr style="margin-top: 0px">
+      
+    </div>
+    <script src="try.js"></script>
+
+
+</body>
+</html>
